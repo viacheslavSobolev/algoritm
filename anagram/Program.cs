@@ -11,6 +11,7 @@ namespace anagram
 
         public static int[] anagram(string[] s1,string[] s2)
         {
+            
             var s1L = s1.ToList();
             var s2L = s2.ToList();
             List<int> result = new List<int>();
